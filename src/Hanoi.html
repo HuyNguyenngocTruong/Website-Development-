@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ha Noi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/media.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4c729db828.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="contact-info">
+      <span class="span-text left">
+        <i class="fa-solid fa-envelope"></i>huytruong22h2@gmail.com
+      </span>
+    
+      <span class="span-text right">
+        <i class="fa-solid fa-phone"></i>02108165390
+      </span>
+    </div>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com/groups/welcome2vietnam/"> <i class="fa-brands icon-social fa-facebook"></i> </a>
+       <a href="https://accounts.snapchat.com/accounts/v2/login"><i class="fa-brands icon-social fa-snapchat"></i> </a>
+       <a href="https://www.whatsapp.com/"><i class="fa-brands icon-social fa-whatsapp"></i> </a>
+       <a href="https://www.instagram.com/"><i class="fa-brands icon-social fa-instagram "></i></a>
+    </div>
+  </header>
+
+    <!-- Bootstrap nav bar -->
+    <nav id = "menu" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h3 class="heading-logo">Viet<span>Nam</span></h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../src/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/index.html#aboutUs">About Viet Nam</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/index.html#city-section">Places</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                City
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../src/Hanoi.html">Hanoi</a></li>
+                <li><a class="dropdown-item" href="../src/hoChiMinh.html">Ho Chi Minh</a></li>
+                <li><a class="dropdown-item" href="../src/haLong.html">Ha Long</a></li>
+                <li><a class="dropdown-item" href="../src/haGiang.html">Ha Giang</a></li>
+                <li><a class="dropdown-item" href="../src/hoiAn.html">Hoi An</a></li>
+                <li><a class="dropdown-item" href="../src/daNang.html">Da Nang</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/index.html#Travel-Tip">Travel Tips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Bootstrap carousel -->
+    <div class="container-fluid">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="home-content img-1">
+              <img src="../img/Hanoi1.jpg" class="d-block w-100" alt="...">
+              <h3 class="heading-home">Welcome to Hanoi</h3>
+              <h2 class="heading-lg-home">Dream Destination for tourist</h2>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="home-content img-2">
+              <img src="../img/Hanoi3.jpg" class="d-block w-100" alt="...">
+              <h3 class="heading-home">Welcome to Hanoi</h3>
+              <h2 class="heading-lg-home">the cultural capital city of Viet Nam</h2>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="home-content img-3">
+              <img src="../img/HanoiCity.jpg" class="d-block w-100" alt="...">
+              <h3 class="heading-home">Welcome to Hanoi</h3>
+              <h2 class="heading-lg-home">Destination for big city vibe</h2>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="home-content img-4">
+              <img src="../img/Hanoi2.jpg" class="d-block w-100" alt="...">
+              <h3 class="heading-home">Welcome to Hanoi</h3>
+              <h2 class="heading-lg-home">Exciting street food</h2>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="home-content img-5">
+              <img src="../img/Hanoi4.jpg" class="d-block w-100" alt="...">
+              <h3 class="heading-home">Welcome to Hanoi</h3>
+              <h2 class="heading-lg-home">Destination for history lover's heaven</h2>
+
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+
+    <body>
+      <main>
+        <h1 class="heading-content">
+          About Hanoi
+        </h1>
+        <p>
+          Hanoi, the capital of Vietnam, is one of the most ancient 
+          cities in the world. This place offers examples of both 
+          contemporary and classical architecture right in the city 
+          center.
+        </p>
+        <p>
+          A renowned destination for typical cuisine, home to 
+          fascinating attractions and hospitable people, and a 
+          diverse region with a combination of multi-communities. 
+          There is plenty to enjoy in Hanoi, from mouthwatering 
+          street food to fascinating history, from traditional 
+          entertainment to recreational activities.
+        </p>
+        <p>
+          Even with a short amount of time, you can still feel the 
+          tranquilness of the city while sipping a cup of coffee. 
+          Wandering around and shooting artistic photos on elegant 
+          streets in the Old Quarter would give you unique 
+          experiences that are hardly found anywhere else.
+        </p>
+
+        <h2>
+          Top activities in Hanoi
+        </h2>
+
+        <!-- caurosel for activities -->
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="hanoi-content">
+                <img src="../img/walking.jpeg" class="d-block w-100" alt="...">
+                <h3>Walking around Hoan Kiem lake</h3>
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+              <div class="hanoi-content">
+                <img src="../img/biking.jpg" class="d-block w-100" alt="...">
+                <h3>Biking around West lake</h3>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="hanoi-content">
+                <img src="../img/walkingOldQuater.jpg" class="d-block w-100" alt="...">
+                <h3>Walking around Old Quarter</h3>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="hanoi-content">
+                <img src="../img/waterPuppet.jpg" class="d-block w-100" alt="...">
+                <h3>Watching water puppet</h3>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- caurosel for sights -->
+        
+          <h2 class="heading-content">
+            Sights in Hanoi
+          </h2>
+
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <div class="hanoi-sight">
+                  <img src="../img/langChuTich.jpg" class="d-block w-100" alt="...">
+                  <h3>Ho Chi Minh Mausoleum</h3>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="hanoi-sight">
+                  <img src="../img/vanMieu.jpg" class="d-block w-100" alt="...">
+                  <h3>Temple of Literature</h3>
+                </div>  
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="hanoi-sight">
+                  <img src="../img/tranQuoc.jpg" class="d-block w-100" alt="...">
+                  <h3>Tran Quoc Pagoda</h3>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="hanoi-sight">
+                  <img src="../img/batTrang.jpg" class="d-block w-100" alt="...">
+                  <h3>Bat Trang Ceramic Village</h3>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="hanoi-sight">
+                  <img src="../img/hoaLo.jpg" class="d-block w-100" alt="...">
+                  <h3>Hoa Lo Prison</h3>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="hanoi-sight">
+                  <img src="../img/militaryMuseum.jpg" class="d-block w-100" alt="...">
+                  <h3>Vietnam War Museum</h3>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="hanoi-sight">
+                  <img src="../img/operaHouse.jpg" class="d-block w-100" alt="...">
+                  <h3>Hanoi Opera House</h3>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="hanoi-sight">
+                  <img src="../img/saintJoseph.jpg" class="d-block w-100" alt="...">
+                  <h3>Hanoi Saint Joseph Cathedral</h3>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="top-sight">
+            <ol>
+              <li>Ho Chi Minh Mausoleum:
+                <p>This commanding construction was built from 1973 to 1975 to house the embalmed body of Vietnam’s 
+                  greatest political leader, Ho Chi Minh. Visitors and Vietnamese 
+                  queue for hours every morning to pay their respects to the cadaver, 
+                  dressed in a khaki wardrobe and encased in a glass sarcophagus.
+                  <span><br>Price: 2 NZD</span>
+                  <span><br>Hours: 8am - 11am</span>
+                </p>
+              </li>
+              <li>Temple of Literature:
+                <p>
+                  Built by Emperor Ly Thanh Tong during the Ly dynasty, the Temple of Literature 
+                  was erected in honour of the philosopher Confucius and his 
+                  disciples in 1070. In 1076, it became home to Hanoi’s first university, 
+                  Quoc Tu Giam. The site is one of the oldest in Hanoi and a 
+                  national symbol of Vietnamese education and architecture. 
+                  Today, the temple houses five court yards, records of Vietnamese 
+                  scholars, and statues of turtles which are said to bring students good luck in their exams.
+                  <span><br>Price: 2 NZD</span>
+                  <span><br>Hours: 7:30am - 6pm</span>
+                </p>
+              </li>
+              <li>Tran Quoc Pagoda:
+                <p>
+                  Tran Quoc Pagoda is more than 1500 years old, which means the place holds 
+                  such an important role in the development of Vietnam in general and Hanoi in particular. 
+                  With a history of over a thousand years, it used to be the capital of Buddhism during the 
+                  Tran dynasty and now considered as a symbol of Hanoi capital, both in the past and today.
+                  Tran Quoc has special architecture which resembles that of ancient temples in Hanoi. 
+                  It bears the bold Buddist architectural image with many layers of buildings. You can see it clearly through the three main houses of the pagoda. 
+                  Why are there 3 main houses? Because Vietnamese believe number 3 represents luck and prosperity.
+                  <span><br>Price: Free</span>
+                  <span><br>Hours: 7:30am - 11:30 am and 1:30pm - 5:30 pm</span>
+                </p>
+              </li>
+              <li>Bat Trang Ceramic Village:
+                <p>
+                  Bat Trang pottery village is said to be established in 14th or 15th century in several documents. 
+                  However, according to the villagers, the village perhaps appeared earlier which is in 11th century.
+                  The special trait is the diversified decorations on the products. Thanks to a long–lasting history and development, 
+                  the village’s works have been accumulated with a lot of different special designs. One more thing that makes them 
+                  distinguished is the glaze, which is of high quality and a variety of colors, such as blue, brown, white, moss green, in both breaking and melting glazes.
+                
+                <span><br>Price: Free</span>
+                <span><br>Hours:7am - 7pm</span>
+                </p>
+              </li>
+              <li>Hoa Lo Prison:
+                <p>
+                  Located in the center of the capital of  Vietnam, well-known as one of the most inhumane prisons with terrified punishment, Hoa Lo Prison, 
+                  aka Maison Centrale, is a symbol of strong will of prisoners and their sacrifice for their communist ideals. Hoa Lo prison was built by the French in 1896 and was named “Central Prison”. 
+                  The location of the prison was located on the full land of Phu Khanh village. The total area of Central Prison and the neighboring roads leading to the prison is 12.908m2.
+                  The prison is surrounded by a 4m tall of the fortified stone wall, 0.5 m thick with a high voltage system to prevent prisoners from escaping. Under the inner wall is a 3m wide 
+                  pavement that is used for guards to go patrol. Four corners have four watchtowers, with the ability to observe the entire side of the inside patrol way and outside of the prison. 
+                  All iron doors and locking systems are carried from France.
+                  <span><br>Price: 30.000 VND</span>
+                  <span><br>Hours: 8am - 5pm</span>
+                </p>
+              </li>
+              <li>Vietnam War Museum:
+                <p>Visiting the museum, tourists can see thousands of exhibits, photographs, maps, scale models of the past Vietnam war. 
+                  <br>The museum content covers the six following periods:
+                  <ul>
+                    <li class="museum">The history of the Vietnamese nation and the birth of the Vietnam People’s Army </li>
+                    <li class="museum">The Vietnamese struggle against French colonialism</li>
+                    <li class="museum">The Vietnamese struggle against American imperialists</li>
+                    <li class="museum">The Vietnam People’s Army on the path to a regular modern army</li>
+                    <li class="museum">The People and the Army are oneness, and will be invicible</li>
+                    <li class="museum">Piece of weaponry displayed in the museum courtyard (such as airplanes, tanks, heavy artilleries, rockets, mortars, bombs, and so forth)</li>
+                  </ul>
+                  <span><br>Price: 40.000VND/foreigner and 20.000VND/local</span>
+                  <span><br>Hours: 8am - 11:30am and 1pm - 4:30pm</span>
+                </p>
+              </li>
+              <li>Hanoi Opera House:
+                <p>Constructed at the turn of the 20th century, this beautiful 
+                  colonial building is the largest theater in Vietnam. 
+                  After nearly 100 years of operation, the Opera House was 
+                  carefully refurbished in 1997 and equipped with state-of-the-art facilities. 
+                  Today the venue attracts renowned performers, productions and musicians. 
+                  <span><br>Price: 20 NZD</span>
+                  <span><br>Hours: Check the website for more information</span>
+                </p>
+              </li>
+              <li>Hanoi Saint Joseph Cathedral:
+                <p>Saint Joseph’s Cathedral (also known as Hanoi Cathedral), was built 
+                  on the site of the  Bao Thien Tower, which was the most famous landmark 
+                  in the capital during the Ly Dynasty. The architect was inspired by the 
+                  Neo-Gothic style of the Notre Dame de Paris. When visiting, expect to see 
+                  a multicultural crowd of worshippers and plenty of Vietnamese newlyweds having 
+                  romantic photo shoots.
+                  <span><br>Price: Free</span>
+                  <span><br>Hours: 8am - 6pm</span>
+                </p>
+              </li>
+            </ol>
+          </div>
+        
+        <!-- caurosel for foods -->
+        <h2 class="heading-content">Top foods in Hanoi</h2>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="food">
+                <img src="../img/pho.jpeg" class="d-block w-100" alt="...">
+                <h3>Pho</h3>
+                <p>
+                  Price range: 30.000 VND - 150.000 VND
+                  <br>Address: 16 Tran Te Xuong, Tay Ho, Hanoi.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="food">
+                <img src="../img/bunCha.jpeg" class="d-block w-100" alt="...">
+                <h3>Bun Cha</h3>
+                <p>Price Range: 40.000 VND - 120.000VND
+                <br>Address: 74 Hang Quat, Hoan Kiem, Hanoi.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="food">
+                <img src="../img/bunRieu2.jpeg" class="d-block w-100" alt="...">
+                <h3>Bun Rieu</h3>
+                <p>Price range: 30.000 VND - 60.000 VND
+                <br>15C Hang Cot, Hoan Kiem, Hanoi.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="food">
+                <img src="../img/xoiHaNoi.jpg" class="d-block w-100" alt="...">
+                <h3>Sticky Rice</h3>
+                <p>
+                  Price range: 10.000 VND - 60.000 VND
+                  <br>Address: 57 Tho Nhuom, Ba Dinh, Hanoi
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="food">
+                <img src="../img/banhMi.jpg" class="d-block w-100" alt="...">
+                <h3>Banh Mi</h3>
+                <p>
+                  Price range: 12.000 VND - 60.000 VND
+                  <br>Address: 25 Hang Ca, Hoan Kiem, Hanoi
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="food">
+                <img src="../img/chaCa.JPG" class="d-block w-100" alt="...">
+                <h3>Cha Ca La Vong</h3>
+                <p>
+                  Price range: 60.000 VND - 88.000 VND/person
+                  <br>Address: 14 Cha Ca, Hoan Kiem, Hanoi
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="food">
+                <img src="../img/eggCoffee.jpg" class="d-block w-100" alt="...">
+                <h3>Egg Coffee</h3>
+                <p>
+                  Price range: 30.000 VND - 50.000 VND
+                  <br>Address: 39 Nguyen Huu Huan, Hoan Kiem, Hanoi
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="food">
+                <img src="../img/kemXoi.jpg" class="d-block w-100" alt="...">
+                <h3>Ice Cream with Sticky Rice</h3>
+                <p>
+                  Price range: 20.000 VND - 50.000 VND
+                  <br>Address: 8 Hai Ba Trung, Hoan Kiem, Hanoi
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </main>
+    </body>
+    
+    <a href="#menu" class="back-to-menu"><i class="fa-solid fa-arrow-up"></i></a>
+
+   <!-- Contact  -->
+   <div id = "contact" class="contact">
+    <h4 class="heading-content">Contact</h4>
+    <div class="contact-div">
+      <div class="sign-up">
+        
+        <h2>SIGN UP FOR OUR NEWSLETTER</h2>
+        <span class="contact-mess">Receive new travel stories from Vietnam once a month in your inbox</span>
+        <br><input type="text" name="" id="" placeholder="Email">
+        
+        <br><button>
+          Sign Up
+        </button>
+      </div>
+      
+      <div class="social-icon">
+        <h2 id="social-contact">FOLLOW US ON</h2>
+        <div class="social-links">
+          <a href="https://www.facebook.com/groups/welcome2vietnam/"> <i class="fa-brands icon-social fa-facebook"></i> </a>
+            <a href="https://accounts.snapchat.com/accounts/v2/login"><i class="fa-brands icon-social fa-snapchat"></i> </a>
+            <a href="https://www.whatsapp.com/"><i class="fa-brands icon-social fa-whatsapp"></i> </a>
+            <a href="https://www.instagram.com/"><i class="fa-brands icon-social fa-instagram "></i></a>
+            <a href="https://www.youtube.com/watch?v=Dp9NCFa3w-c"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@vietnamtourismboard?lang=en"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <footer>
+      <p>&copy; Trhuy, 2024</p>
+      <p>Images from google, Trhuy</p>
+      <p>Website by Trhuy</p>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+</html>

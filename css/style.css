@@ -1,0 +1,577 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* END OF RESET */
+
+header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fcf6f6;
+    flex-direction: column;
+    text-align: center;
+}
+
+div span {
+    margin-right: 0.2em;
+}
+
+.fa-solid {
+    margin: 0.6em;
+    margin-right: 0.6em;
+}
+
+
+.fa-brands {
+    cursor: pointer;
+    margin-right: 0.6em;
+    color: #b2910e;
+    font-size: 1.2rem;
+}
+
+nav {
+    position: absolute; 
+    top: 2em;
+    width: 100%;
+    background-color: #fcf6f6;
+    padding: 0.6em 2em;
+    z-index: 55;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.heading-logo {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+
+.dropdown-menu {
+    border-radius: 6px 6px 6px 6px;
+}
+
+.home-content {
+    width: 100%;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: -55;
+    background-color: white;
+    margin-bottom: 2em;
+    margin-top: 4em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-content img {
+    height: 200px;
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 1em 1em;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 1em 0 0 0;
+    margin-bottom: 1em;
+}
+
+.about-us li span {
+    font-weight: 300;
+}
+
+.heading-content {
+    text-align: center;
+}
+
+.heading-content::after{
+    content: " ";
+    position: absolute;
+    width: 2.8em;
+    background-color: red;
+    height: 0.1em;
+    right: 0;
+    margin-bottom: 0.5em;  
+   }
+
+.heading-content::before{
+ content: " ";
+ position: absolute;
+ width: 2.8em;
+ background-color: red;
+ height: 0.1em;  
+ left: 0; 
+ margin-bottom: 0.5em;
+}
+
+ol {
+    margin-right: 0.5em;
+}
+
+main {
+    margin-left: 0.6em;
+}
+
+main img, video {
+    width: 98%;
+    margin-bottom: 0.6em;
+}
+
+main p {
+    width: 98%;
+}
+
+.caption {
+    bottom: 0;
+    margin-right: 3em;
+    text-align: center;
+    font-size: 0.6em;
+    margin-bottom: 1em;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+}
+
+.place-intro{
+    margin-right: 0.5em;
+}
+
+img {
+    width: 98%;
+}
+
+@keyframes slidein {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+body {
+    line-height: 1.8rem;
+    animation: slidein 1s ease-in-out;
+}
+
+.back-to-menu {
+    position: fixed; 
+    top: 78%;
+    right: 20px; 
+    padding: 5px 10px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    z-index: 999; 
+}
+
+.back-to-menu:hover {
+    background-color: #0056b3; 
+    color: rgb(10, 10, 10);
+
+}
+
+.contact{
+    margin-left: 0.6em;
+}
+
+.contact h2 {
+    margin-top: 0.6em;
+}
+
+.contact-mess {
+    width: 98%;
+    display: inline-block;
+}
+
+.contact input {
+    margin-top: 0.5em;
+    width: 90%;
+}
+
+.contact button {
+    border: 1px solid #f7bd01;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 0.8em;
+    background-color: #a5190e;
+    padding: 0.8em;
+    color: #fff;
+}
+
+.contact button:hover {
+    background-color: #fff;
+    color: #b2910e;
+}
+
+#social-contact {
+    margin-top: 0.8em;
+}
+
+.Travel-Tip {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.Travel-Tip div i {
+    font-size: 1.5rem;
+}
+
+.Travel-Tip span{
+    font-size: 1.2rem;
+}
+
+.Travel-Tip div a {
+    text-decoration: none;
+    color: #b2910e;
+}
+
+.Travel-Tip div a:hover {
+    color: #2f0eb2;
+}
+
+
+footer {
+    margin-top: 1.2em;
+    margin-bottom: 0;
+    padding-bottom: 0.2em;
+}
+
+footer p {
+    padding-top: 0.4em;
+    padding-left: 1em;
+}
+
+/* font-size */
+
+header {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.heading-logo {
+    font-size: 2.4rem;
+}
+
+.heading-content {
+    font-weight: bold;
+}
+
+.btn-home {
+    font-size: 0.8rem;
+}
+
+.about-us li {
+    font-size: 0.8rem !important;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+main div p {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+main div li {
+    font-weight: 500;
+}
+
+section h2 {
+    font-weight: bold;
+}
+
+section img {
+  width: 98%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+  transition: all .5s;
+}
+
+.text-place-intro {
+    position: absolute;
+    color: #fff;
+    margin: 1em 1em;
+    padding: 0.5em 0.5em;
+    background-color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.text-place-intro span {
+    text-align: center;
+    margin: 0;
+}
+
+.place-intro{
+    position: relative;
+    transition: .5s ease;
+    cursor: pointer; 
+}
+
+.place-intro img:hover {
+    opacity: 0.6;
+}
+
+footer {
+    font-size: 1rem;
+}
+
+/* color */
+.social-links{
+    color: blue;
+    font-weight: 400;
+}
+
+.heading-logo {
+    color: rgb(255, 0, 0);
+}
+
+.dropdown-item {
+    color: rgba(223, 31, 31, 0.625);
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: #FAFAD2;
+}
+
+.nav-item .nav-link {
+    color: rgba(8, 8, 8, 0.625);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.nav-item .nav-link:hover {
+    color: rgba(223, 31, 31, 0.625);
+}
+
+
+h3 span {
+    color: rgb(164, 180, 22);
+}
+
+.btn-home {
+    background-color: rgb(225, 8, 8);
+    color: white;
+}
+
+.btn-home:hover{
+    background-color: rgb(0, 0, 0);
+    color: red;    
+}
+
+.fa-brands:hover {
+    color: black;
+}
+
+footer {
+    background-color: #fcf6f6;
+
+}
+
+.contact h2 {
+    color: #b2910e;
+    font-weight: 400;
+}
+
+
+/* city webpage */
+.hanoi-content {
+    width: 98%;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: -55;
+    position: relative;
+    background-color: #fcf6f6;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.hanoi-content img {
+    border-radius: 6px 6px 6px 6px;
+    height: 250px;
+}
+
+.hanoi-content h3 {
+    position: absolute;
+    color: #fcf6f6;
+    background-color:midnightblue;
+    top: 0.5em;
+    left: 0.2em;
+    padding: 0.5em 0.5em;
+}
+
+.hanoi-sight{
+    width: 98%;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: -55;
+    position: relative;
+    background-color: #fcf6f6;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.hanoi-sight h3 , .food h3{
+    position: absolute;
+    color: #fcf6f6;
+    background-color:midnightblue;
+    top: 0.5em;
+    left: 0.2em;
+    padding: 0.5em 0.5em;
+}
+
+.hanoi-sight img{
+    border-radius: 6px 6px 6px 6px;
+    height: 300px;
+}
+
+.top-sight p {
+    font-size: 0.9rem ;
+}
+
+.top-sight span {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.top-sight li {
+    margin: 0;
+    font-weight: 650;
+}
+
+.museum {
+    font-weight: normal !important;
+    margin-right: 0.5em !important;
+    font-size: 0.9rem !important;
+}
+
+.food img{
+    border-radius: 6px 6px 6px 6px;
+    height: 400px;
+}
+
+.food {
+    width: 98%;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: -55;
+    background-color: white;
+    position: relative;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.food p {
+    text-align: left;
+    font-size: 1rem;
+}
+
+#saigon-post {
+    font-weight: bold;
+}
+
+#UNESCO {
+    font-weight: bold;
+}
+
+/* GALLERY */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    margin: 0.6em;
+}
+
+.image-container .gallery-heading {
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.image-container .gallery-heading h3 {
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin-top: 1.5em;
+    border-bottom: 3px solid #222;
+}
+
+.image-container .gallery-heading h3 span {
+    font-weight: 200;
+    color: #222;
+}
+
+.image-container .box  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.image-container .box img {
+    width: 100%;
+    padding-bottom: 1em;
+    border-radius: 5px;
+    height: auto !important;
+    transition: transform 0.3s ease; 
+    overflow: hidden;
+}
+
+.image-container .box img:hover {
+    transform: scale(1.1);
+}
+
+.audio {
+    margin-top: 2em;
+    margin-left: 1em;
+    width: 150px;
+    height: auto;
+}
